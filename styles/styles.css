@@ -425,7 +425,7 @@ header.scrolled{
     background-color: white;
     display: grid;
     padding: 2rem;
-    width: 33.33%;
+    width: 20rem;
     box-shadow: 0px 0px 12px var(--box-shadow-color);
     height: 100%;
     justify-content: space-between; 
@@ -744,7 +744,7 @@ footer .paragraph{
     }
 
     #home .image img{
-        max-width: 600px;
+        max-width: 550px;
     }
 
     #home .image::before{
@@ -811,6 +811,7 @@ footer .paragraph{
     }
 
     #testimonials .card{
+        width: 33.33%;
         margin: 0;
     }
 
