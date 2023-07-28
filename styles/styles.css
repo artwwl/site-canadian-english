@@ -664,6 +664,7 @@ footer .paragraph {
   /* -------------- Home --------------*/
 
   #home {
+    height: 90vh;
     padding: 14rem 7.7rem;
     display: flex;
     gap: 10rem;
@@ -691,6 +692,7 @@ footer .paragraph {
 
   #home .image::before {
     max-width: none;
+    max-height: 100%;
   }
 
   /* -------------- About --------------*/
@@ -698,6 +700,14 @@ footer .paragraph {
   #about {
     display: flex;
     gap: 4rem;
+  }
+
+  #about .text {
+    display: block;
+  }
+
+  #about .text h2{
+    margin-bottom: 2rem;
   }
 
   #about .image img {
